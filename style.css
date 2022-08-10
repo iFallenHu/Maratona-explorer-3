@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #85f1da79;
+    font-family: 'oleo script swash caps', sans-serif;
+}
+
+ul{
+    list-style:circle;
+}
+/* Fonts*/
+h1, h2, h3, .Price {
+    font-family: 'oleo script swash caps serif';
+    text-transform: uppercase;
+    
+    }
+
+header{
+    padding: 32px 0;
+    text-align: center;
+}
+header,
+section{
+    max-width: 300px;
+    margin: 0 auto;
+}
+header h1{
+    margin-bottom: 4px;
+    font-size: 28px;
+}
+
+header h1 span{
+    color: #995000;
+}
+
+
+section{
+    margin-bottom: 24px;
+}
+
+section h2{
+    background-color: #FED7AA;
+    padding:8px 16px;
+    text-align: center;
+
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+/* o flex reconhece que uma caixa fica de um lado e o outro ao lado*/
+
+ul li{ 
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .Details{
+    max-width: 240px;
+}
+.Details h3{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
